@@ -1,0 +1,44 @@
+#picture_set_container {
+    height: auto;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+#pictures, #videos {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#picture_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: navy;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#solar_images, #elect_images {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gal_list {
+    width: 30%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 2%;
+    margin: 0.8%;
+}
+
+#gal_list2 {
+    height: auto;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 2%;
+    margin: 0.8%;
+}
